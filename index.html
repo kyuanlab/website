@@ -1,0 +1,96 @@
+---
+layout: default
+title: yuan lab
+categories:
+ - home
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<object class="pull-left biglogo" data="/images/cslogo.svg" type="image/svg+xml"></object>
+		<div class="bigtitle logobox">
+			Yuan Lab 
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+      <p>
+        The Yuan Lab at the <a class="off" href="https://www.gla.ac.uk/schools/computing/">School of Computing Science, University of Glasgow</a> works at the
+        interface of machine learning and computational biology. We develop novel computational and statistical methods to sequence and image data to understand cancer evolution. With the School of Computing Science, we are part of Inference, Dynamics and Interaction Research Group and the Information, Data and Analysis section. Together with Simon Rogers, we form the Glasgow Computational Biology Group. 
+      </p>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="/papers/">Recent papers</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	{% for paper in site.categories.papers limit:4 %}
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="{{ paper.url }}">
+				{{ paper.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				{{ paper.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			Misc
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 reduced-gutter">
+		<div class="pad-left">
+			<ul class="list-inline">
+				{% for page in site.categories.misc %}
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
+				</li>
+				{% endfor %}
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+				</li>
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="http://www.fredhutch.org/">Fred Hutch</a>
+				</li>
+			</ul>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
