@@ -1,4 +1,4 @@
-# KYuan Lab website code
+# Yuan Lab website code
 
 The code is forked from bedford lab https://bedford.io/misc/about/
 
