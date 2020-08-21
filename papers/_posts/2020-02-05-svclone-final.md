@@ -3,9 +3,11 @@ layout: paper
 title: "Inferring structural variant cancer cell fraction"
 image: /images/papers/cmero-svclone-1st.png
 authors: Marek Cmero, Ke Yuan, Cheng Soon Ong, Jan Schroeder, PCAWG Evolution and Heterogeneity Working Group, Niall Corcoran, Anthony Papenfuss, Christopher Hovens, Florian Markowetz, Geoff Macintyre, PCAWG Consortium.
-year: 2019
-ref: Cmero and Yuan et al. 2019. Nature Communications.
-journal: "Nature Communications (Accepted)"
+year: 2020
+ref: Cmero and Yuan et al. 2020. Nature Communications.
+journal: "Nat Commun 11, 730."
+doi: 10.1038/s41467-020-14351-8
+github: https://github.com/mcmero/SVclone
 ---
 
 # Abstract

@@ -3,10 +3,10 @@ layout: paper
 title: The evolutionary history of 2,658 cancers
 image: /images/papers/gerstung-pcawg11.png
 authors: Moritz Gerstung, Clemency Jolly, Ignaty Leshchiner, Stefan C. Dentro, Santiago Gonzalez, Daniel Rosebrock, Thomas J. Mitchell, Yulia Rubanova, Pavana Anur, Kaixian Yu, Maxime Tarabichi, Amit Deshwar, Jeff Wintersinger, Kortine Kleinheinz, Ignacio Vázquez-García, Kerstin Haase, Lara Jerman, Subhajit Sengupta, Geoff Macintyre, Salem Malikic, Nilgun Donmez, Dimitri G. Livitz, Marek Cmero, Jonas Demeulemeester, Steven Schumacher, Yu Fan, Xiaotong Yao, Juhee Lee, Matthias Schlesner, Paul C. Boutros, David D. Bowtell, Hongtu Zhu, Gad Getz,  Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp,Yuan Ji, Martin Peifer, Florian Markowetz, Ville Mustonen, Ke Yuan, Wenyi Wang, Quaid D. Morris, Paul T. Spellman, David C. Wedge, Peter Van Loo, on behalf of the PCAWG Evolution and Heterogeneity Working Group, the PCAWG network.
-year: 2019
-ref: Gerstung et al. 2019. Nature (Accepted).
-journal: "Nature (Accepted)"
-doi: 10.1101/161562
+year: 2020
+ref: Gerstung et al. 2020. Nature.
+journal: "Nature 578, 122–128."
+doi: doi.org/10.1038/s41586-019-1907-7
 ---
 
 # Abstract
