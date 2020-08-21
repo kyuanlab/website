@@ -3,10 +3,11 @@ layout: paper
 title: "Pathology GAN: Learning deep representations of cancer tissue"
 image: /images/papers/adal-pathgan.png
 authors: Adalberto Claudio Quiros, Roderick Murray-Smith, Ke Yuan
-year: 2019
-ref: Quiros et al. 2019. arXiv.
-journal: "arXiv:1907.02644."
+year: 2020
+ref: Quiros et al. 2020. MIDL.
+journal: "Medical Imaging with Deep Learning (MIDL)"
 github: https://github.com/AdalbertoCq/Pathology-GAN
+doi: arXiv:1907.02644 
 ---
 
 # Abstract

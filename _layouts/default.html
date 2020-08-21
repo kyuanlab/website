@@ -80,6 +80,13 @@
 						{% endif %}
 						<a href="/papers/">papers</a>
 						</li>
+						{% if page.categories.first == 'projects' %}
+						<li class="active">
+						{% else %}
+						<li>
+						{% endif %}
+						<a href="/projects/">projects</a>
+						</li>
 					</ul>
 				</div>
 			</div>
