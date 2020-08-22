@@ -2,8 +2,8 @@
 layout: member
 title: Xinyu Yang
 position: PhD Student
-twitter: 
-github: 
+twitter: momo60350372
+github: xinnyuY
 scholar: 
-image: 
+image: /images/team/xinyu-yang.png
 ---

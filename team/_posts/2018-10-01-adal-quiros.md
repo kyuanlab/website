@@ -5,9 +5,9 @@ position: PhD student
 handle: 
 email: 
 twitter: 
-github: 
+github: AdalbertoCq
 scholar: 
-image: 
-calendar: 
+image: /images/team/adal-quiros.jpeg
+website: https://adalbertocq.github.io/ 
 ---
 
