@@ -60,19 +60,22 @@
 						<span class="icon-bar"></span>
 					</button>
 					{% if page.categories.first != 'home' %}
-					<object class="logo navbar-brand" data="/images/kylab.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">K. Yuan Lab</a>
+					<object class="logo navbar-brand" data="/images/kylab_bw.svg" type="image/svg+xml"></object>
+					<a class="navbar-brand" href="/"> k. yuan lab</a>
+					{% endif %}
+					{% if page.categories.first == 'home' %}
+					<object class="logo navbar-brand" data="/images/kylab_bw.svg" type="image/svg+xml"></object>
 					{% endif %}
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-element">
 					<ul class="nav navbar-nav navbar-right">
-						<!-- {% if page.categories.first == 'research' %}
+						 {% if page.categories.first == 'research' %}
 						<li class="active">
 						{% else %}
 						<li>
-						{% endif %} -->
-						<!-- <a href="/research/">research</a>
-						</li> -->
+						{% endif %} 
+						 <a href="/research/">research</a>
+						</li> 
 						{% if page.categories.first == 'team' %}
 						<li class="active">
 						{% else %}
@@ -93,6 +96,10 @@
 						<li>
 						{% endif %}
 						<a href="/projects/">projects</a>
+						</li>
+						<li class="active">
+						<li>
+						<a href="/teaching/">teaching</a>
 						</li>
 					</ul>
 				</div>
