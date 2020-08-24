@@ -11,7 +11,7 @@
    viewBox="0 0 576 512"
    version="1.1"
    id="svg4"
-   sodipodi:docname="kylab.svg"
+   sodipodi:docname="kylab_bw.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    inkscape:export-filename="/Users/weiliu/Dropbox/wei_ke/kylab_logo/brain_test.png"
    inkscape:export-xdpi="96"
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -249,6 +249,60 @@
          width="1776.5151"
          style="opacity:0.32507743;fill:url(#pattern7814);stroke:none" />
     </pattern>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter895">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix893"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix929" />
+      <feColorMatrix
+         id="feColorMatrix931"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter899">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix897"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix933" />
+      <feColorMatrix
+         id="feColorMatrix935"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter903">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix901"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix937" />
+      <feColorMatrix
+         id="feColorMatrix939"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -264,7 +318,7 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.42"
-     inkscape:cx="-150.06245"
+     inkscape:cx="364.22326"
      inkscape:cy="142.32057"
      inkscape:window-x="38"
      inkscape:window-y="1"
@@ -273,7 +327,7 @@
   <g
      id="g1817"
      transform="translate(108,2.000005)"
-     style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+     style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter895)">
     <path
        style="fill:url(#pattern1764);fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0"
@@ -290,10 +344,10 @@
      d="m 215.62891,3.371094 c -29.9,0 -54.69883,20.501172 -61.79883,48.201172 -0.8,0 -1.40117,-0.201172 -2.20117,-0.201172 -35.3,0 -64,28.7 -64,63.999996 0,4.8 0.60117,9.5 1.70117,14 -29.2,12 -49.70117,40.6 -49.70117,74 0,12.6 3.20078,24.30039 8.30078,34.90039 -24,13.8 -40.30078,39.39961 -40.30078,69.09961 0,33.3 20.40039,61.90039 49.40039,73.90039 -0.9,4.6 -1.40039,9.29961 -1.40039,14.09961 0,39.8 32.2,72 72,72 4.1,0 8.1,-0.49921 12,-1.19921 9.6,28.5 36.2,49.19921 68,49.19921 39.8,0 72,-32.2 72,-72 V 67.371094 c 0,-35.3 -28.7,-64 -64,-64 z"
      id="path2160"
      inkscape:connector-curvature="0"
-     style="opacity:1;fill:url(#pattern7820);fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:url(#pattern7820);fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter899)" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.33333588px;line-height:1.25;font-family:Silom;-inkscape-font-specification:'Silom, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.02024555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.33333588px;line-height:1.25;font-family:Silom;-inkscape-font-specification:'Silom, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.02024555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter903)"
      x="54.253475"
      y="294.5853"
      id="text986"
