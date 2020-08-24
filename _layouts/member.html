@@ -94,15 +94,26 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
+		{% if member.website %}
+		<div class="smallhead">
+			Website
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ member.website }}">{{ member.website }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 	</div>
 	<div class="col-md-8">
 		<div class="post">
 			{{ content }}
 		</div>
 
-		{% assign lastname = member.title | split: ' ' | last %}
-		{% assign firstinitial = member.title | split: ' ' | first | slice: 0 %}
-		{% assign searchstring = lastname %}
+		<!-- {% assign lastname = member.title | split: ' ' | last %}
+		{% assign firstinitial = member.title | split: ' ' | first | slice: 0 %} -->
+		{% assign searchstring = member.title %}
 
 		{% for paper in site.categories.papers %}
 		{% if paper.authors contains searchstring %}
