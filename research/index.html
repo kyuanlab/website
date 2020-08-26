@@ -1,20 +1,61 @@
 ---
 layout: default
-title: kyuan lab / research
+title: yuan lab / research
 categories:
  - research
+category: research
 ---
 
-<div class="row">
-	<div class="col-md-12">
-		<div class="title">
-			Research
+<div class="post-list">
+
+	{% for post in site.categories.research limit: 8 %}
+	
+		<div class="blog-post">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="media">
+						<div class="media-body">
+							<div class="title media-heading">
+								<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+							</div>
+							<p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+	
+			<div class="bigspacer"></div>
+	
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					{% if post.image %}
+					{% if post.link %}
+					<a href="{{ post.link }}">
+						<img class="offset" src="{{ post.image }}">
+					</a>
+					{% else %}
+					<img class="offset" src="{{ post.image }}">
+					{% endif %}
+					{% endif %}
+					<div class="post">
+						{{ post.content }}
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+	
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+	
 		</div>
-	</div>
-</div>
+	
+	{% endfor %}
 
 
-<div class="row">
+<!-- <div class="row">
 	<div class="col-md-12">
 		<div class="smallhead">
       <p>
@@ -25,7 +66,27 @@ categories:
       </p>
 		</div>
 	</div>
+</div> -->
+
+<!-- Infinite scroll -->
+
+<div class="infinite-spinner"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div id="scroll" class="centered-pills">
+			<ul class="nav nav-pills note">
+				<li role="presentation">
+					<a class="off" href="/research/">
+						<i class="fa fa-chevron-up fa-fw"></i> Back to top
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
+
+<script async src="/js/infinite-scroll.js"></script>
 
 
 
