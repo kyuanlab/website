@@ -2,7 +2,7 @@ name: Yuan Lab
 description: Science updates on machine learning and computational biology from the Yuan Lab at the University of Glasogw
 url: http://kyuanlab.github.io
 
-# markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 future: true
 
