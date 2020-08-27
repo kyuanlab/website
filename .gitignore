@@ -5,9 +5,9 @@ environment*
 _site/
 
 # Projects
-projects/
-!projects/*/index.md
-!projects/index.html
+# projects/
+# !projects/*/index.md
+# !projects/index.html
 
 # Jekyll metadata
 .jekyll-metadata
