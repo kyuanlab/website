@@ -7,7 +7,7 @@ year: 2020
 ref: Quiros et al. 2020. arXiv.
 journal: "arXiv:2004.06517"
 github: https://github.com/AdalbertoCq/Pathology-GAN
-doi: arXiv:2004.06517
+arxiv: arXiv:2004.06517
 ---
 
 # Abstract

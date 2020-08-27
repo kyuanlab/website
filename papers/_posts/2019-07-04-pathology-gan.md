@@ -7,9 +7,22 @@ year: 2020
 ref: Quiros et al. 2020. MIDL.
 journal: "Medical Imaging with Deep Learning (MIDL)"
 github: https://github.com/AdalbertoCq/Pathology-GAN
-doi: arXiv:1907.02644 
+arxiv: arXiv:1907.02644 
 ---
 
 # Abstract
 
-We apply Generative Adversarial Networks (GANs) to the domain of digital pathology. Current machine learning research for digital pathology focuses on diagnosis, but we suggest a different approach and advocate that generative models could help to understand and find fundamental morphological characteristics of cancer tissue. In this paper, we develop a framework which allows GANs to capture key tissue features, and present a vision of how these could link cancer tissue and DNA in the future. To this end, we trained our model on breast cancer tissue from a medium size cohort of 526 patients, producing high fidelity images. We further study how a range of relevant GAN evaluation metrics perform on this task, and propose to evaluate synthetic images with clinically/pathologically meaningful features. Our results show that these models are able to capture key morphological characteristics that link with phenotype, such as survival time and Estrogen-receptor (ER) status. Using an Inception-V1 network as feature extraction, our models achieve a Frechet Inception Distance (FID) of 18.4. We find that using pathology meaningful features on these metrics show consistent performance, with a FID of 8.21. Furthermore, we asked two expert pathologists to distinguish our generated images from real ones, finding no significant difference between them.
+We apply Generative Adversarial Networks (GANs) to the domain of digital pathology.
+Current machine learning research for digital pathology focuses on diagnosis, but we suggest a different approach and advocate that generative models could drive forward the
+understanding of morphological characteristics of cancer tissue. In this paper, we develop
+a framework which allows GANs to capture key tissue features and uses these characteristics to give structure to its latent space. To this end, we trained our model on 249K
+H&E breast cancer tissue images, extracted from 576 TMA images of patients from the
+Netherlands Cancer Institute (NKI) and Vancouver General Hospital (VGH) cohorts.
+
+We show that our model generates high quality images, with a Fr´echet Inception Distance (FID) of 16.65. We further assess the quality of the images with cancer tissue
+characteristics (e.g. count of cancer, lymphocytes, or stromal cells), using quantitative
+information to calculate the FID and showing consistent performance of 9.86. Additionally, the latent space of our model shows an interpretable structure and allows semantic
+vector operations that translate into tissue feature transformations. Furthermore, ratings
+from two expert pathologists found no significant difference between our generated tissue
+images from real ones. The code, generated images, and pretrained model are available at
+https://github.com/AdalbertoCq/Pathology-GAN
