@@ -1,0 +1,45 @@
+---
+- repo: keyuan/ccube
+  title: ccube
+  owner: keyuan
+  description: Bayesian mixture models for estimating and clustering cancer cell fractions
+  url: "/projects/ccube/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  - login: lauradmartens
+    avatar: https://avatars2.githubusercontent.com/u/25029058?v=4&s=50
+    url: https://github.com/lauradmartens
+  - login: mcmero
+    avatar: https://avatars0.githubusercontent.com/u/7799828?v=4&s=50
+    url: https://github.com/mcmero
+  commits:
+  - date: 2019-07-03 21:44:12.000000000 Z
+    message: fixing a bug of using true vaf to compute ccf.
+    url: https://github.com/keyuan/ccube/commit/6ad86869d8967ed4b1df25f4a9837c879c5b2601
+    author_login: ''
+    author_url: ''
+  - date: 2019-07-02 14:59:04.000000000 Z
+    message: Minor corrections
+    url: https://github.com/keyuan/ccube/commit/39fd36bc280f590ae4c2591fcac5eb526bc52756
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-06-21 15:20:46.000000000 Z
+    message: |-
+      Merge pull request #5 from mcmero/master
+
+      Allow verbose flag to be set for post assign pipeline
+    url: https://github.com/keyuan/ccube/commit/205f5e7b895fd302019faced3f4acf1a3f15e778
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-06-21 06:20:36.000000000 Z
+    message: Allow verbose flag to be set for post assign pipeline
+    url: https://github.com/keyuan/ccube/commit/fb45ea427054c3379ce6fe46f15d8ef8a6e66d72
+    author_login: mcmero
+    author_url: https://github.com/mcmero
+  - date: 2019-06-07 10:50:07.000000000 Z
+    message: remove monomvn
+    url: https://github.com/keyuan/ccube/commit/f53e18a5ded4e630529db6331faef39a4d7e61c9
+    author_login: keyuan
+    author_url: https://github.com/keyuan
