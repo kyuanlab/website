@@ -38,5 +38,5 @@ exclude:
   - "Gemfile.lock"
 
 projects:
-keyuan/ccube
+  - keyuan/ccube
  
