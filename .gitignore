@@ -6,6 +6,7 @@ _site/
 
 # Projects
 projects/
+!*/index.md
 !projects/index.html
 
 # Jekyll metadata
