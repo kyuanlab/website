@@ -91,8 +91,8 @@
   - date: 2019-07-03 21:44:12.000000000 Z
     message: fixing a bug of using true vaf to compute ccf.
     url: https://github.com/keyuan/ccube/commit/6ad86869d8967ed4b1df25f4a9837c879c5b2601
-    author_login: ''
-    author_url: ''
+    author_login: keyuan
+    author_url: https://github.com/keyuan
   - date: 2019-07-02 14:59:04.000000000 Z
     message: Minor corrections
     url: https://github.com/keyuan/ccube/commit/39fd36bc280f590ae4c2591fcac5eb526bc52756
@@ -139,18 +139,18 @@
   - date: 2019-04-23 15:32:40.000000000 Z
     message: ignore txt files
     url: https://github.com/keyuan/docker-ccube/commit/5e5d122e662ac811e7ffde5c7261b121f034e099
-    author_login: ''
-    author_url: ''
+    author_login: keyuan
+    author_url: https://github.com/keyuan
   - date: 2019-04-23 15:29:50.000000000 Z
     message: remove build files
     url: https://github.com/keyuan/docker-ccube/commit/50f3d3f92d69e121fa50743d6dac3ecca2669acd
-    author_login: ''
-    author_url: ''
+    author_login: keyuan
+    author_url: https://github.com/keyuan
   - date: 2019-04-23 15:26:43.000000000 Z
     message: ignore R build files
     url: https://github.com/keyuan/docker-ccube/commit/478c606a36b6c64a301a69e37519ecb1889e813e
-    author_login: ''
-    author_url: ''
+    author_login: keyuan
+    author_url: https://github.com/keyuan
 - repo: keyuan/docker-pyclone
   title: docker-pyclone
   owner: keyuan
