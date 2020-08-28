@@ -39,4 +39,5 @@ exclude:
 
 projects:
   - keyuan/ccube
- 
+  - keyuan/docker-ccube
+  - keyuan/docker-pyclone
