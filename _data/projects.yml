@@ -1,0 +1,223 @@
+---
+- repo: AdalbertoCq/Pathology-GAN
+  title: Pathology-GAN
+  owner: AdalbertoCq
+  description: 'Corresponding code of ''Quiros A.C., Murray-Smith R., Yuan K. Pathology
+    GAN: Learning deep representations of cancer tissue. Proceedings of The 3rd International
+    Conference on Medical Imaging with Deep Learning (MIDL) 2020'''
+  url: "/projects/Pathology-GAN/"
+  contributors:
+  - login: AdalbertoCq
+    avatar: https://avatars0.githubusercontent.com/u/4898234?v=4&s=50
+    url: https://github.com/AdalbertoCq
+  commits:
+  - date: 2020-08-18 15:49:17.000000000 Z
+    message: Update generate_fake_samples.py
+    url: https://github.com/AdalbertoCq/Pathology-GAN/commit/7807b4658e775cbdd2df9ee4cebe47e2f3960242
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-08-13 09:56:13.000000000 Z
+    message: Update README.md
+    url: https://github.com/AdalbertoCq/Pathology-GAN/commit/679727e5d01b04058b1cc2da0dcb6f630fd15bc8
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-08-13 09:53:13.000000000 Z
+    message: Update README.md
+    url: https://github.com/AdalbertoCq/Pathology-GAN/commit/3ee573886717fbc61069d19a771ec4a4a4ba35ec
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-08-13 09:48:40.000000000 Z
+    message: Fix selected list
+    url: https://github.com/AdalbertoCq/Pathology-GAN/commit/c2642238be1c31cee5ccd9234c46c0e78837e93e
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-08-13 09:35:39.000000000 Z
+    message: Merge branch 'master' of https://github.com/AdalbertoCq/Pathology-GAN
+    url: https://github.com/AdalbertoCq/Pathology-GAN/commit/429f1af9d2098ba76399ffc4035203d0fdedc112
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+- repo: AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue
+  title: Learning-a-low-dimensional-manifold-of-realcancer-tissue
+  owner: AdalbertoCq
+  description: Corresponding code of 'Quiros A.C., Murray-Smith R., Yuan K. Learning
+    a low dimensional manifold of real cancer tissue with PathologyGAN 2020'.
+  url: "/projects/Learning-a-low-dimensional-manifold-of-realcancer-tissue/"
+  contributors:
+  - login: AdalbertoCq
+    avatar: https://avatars0.githubusercontent.com/u/4898234?v=4&s=50
+    url: https://github.com/AdalbertoCq
+  commits:
+  - date: 2020-05-28 16:43:03.000000000 Z
+    message: Update README.md
+    url: https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue/commit/d7b5ce446ea39fac325375f09d90d4f73a6cf9ec
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-05-28 16:42:27.000000000 Z
+    message: Update README.md
+    url: https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue/commit/deb500e61c486094a6e741550ec3a84c7bd3423e
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-03-19 18:17:04.000000000 Z
+    message: Create .gitignore
+    url: https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue/commit/93798cb1258b97f0e1a17a545fe714f34cc8f82e
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-03-19 18:13:32.000000000 Z
+    message: Update README.md
+    url: https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue/commit/dd435ee6c8d5ebd7a3b92df002bdf1bbfe70ffa9
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+  - date: 2020-03-19 16:17:05.000000000 Z
+    message: Merge branch 'master' of https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue
+    url: https://github.com/AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue/commit/be8af9c9f3a089e44e2e9f63d7ea812a5a6ee1b1
+    author_login: AdalbertoCq
+    author_url: https://github.com/AdalbertoCq
+- repo: keyuan/ccube
+  title: ccube
+  owner: keyuan
+  description: Bayesian mixture models for estimating and clustering cancer cell fractions
+  url: "/projects/ccube/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  - login: lauradmartens
+    avatar: https://avatars2.githubusercontent.com/u/25029058?v=4&s=50
+    url: https://github.com/lauradmartens
+  - login: mcmero
+    avatar: https://avatars0.githubusercontent.com/u/7799828?v=4&s=50
+    url: https://github.com/mcmero
+  commits:
+  - date: 2019-07-03 21:44:12.000000000 Z
+    message: fixing a bug of using true vaf to compute ccf.
+    url: https://github.com/keyuan/ccube/commit/6ad86869d8967ed4b1df25f4a9837c879c5b2601
+    author_login: ''
+    author_url: ''
+  - date: 2019-07-02 14:59:04.000000000 Z
+    message: Minor corrections
+    url: https://github.com/keyuan/ccube/commit/39fd36bc280f590ae4c2591fcac5eb526bc52756
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-06-21 15:20:46.000000000 Z
+    message: |-
+      Merge pull request #5 from mcmero/master
+
+      Allow verbose flag to be set for post assign pipeline
+    url: https://github.com/keyuan/ccube/commit/205f5e7b895fd302019faced3f4acf1a3f15e778
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-06-21 06:20:36.000000000 Z
+    message: Allow verbose flag to be set for post assign pipeline
+    url: https://github.com/keyuan/ccube/commit/fb45ea427054c3379ce6fe46f15d8ef8a6e66d72
+    author_login: mcmero
+    author_url: https://github.com/mcmero
+  - date: 2019-06-07 10:50:07.000000000 Z
+    message: remove monomvn
+    url: https://github.com/keyuan/ccube/commit/f53e18a5ded4e630529db6331faef39a4d7e61c9
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+- repo: keyuan/docker-ccube
+  title: docker-ccube
+  owner: keyuan
+  description: 
+  url: "/projects/docker-ccube/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  commits:
+  - date: 2019-05-24 15:09:26.000000000 Z
+    message: fix calling nonexist parser
+    url: https://github.com/keyuan/docker-ccube/commit/6af0556cb20b4394da02056f3c8218af5b0a4ed3
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-04-29 15:45:36.000000000 Z
+    message: Delete .DS_Store
+    url: https://github.com/keyuan/docker-ccube/commit/4a13cea3157c72912afb4bf684faa4f936279441
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-04-23 15:32:40.000000000 Z
+    message: ignore txt files
+    url: https://github.com/keyuan/docker-ccube/commit/5e5d122e662ac811e7ffde5c7261b121f034e099
+    author_login: ''
+    author_url: ''
+  - date: 2019-04-23 15:29:50.000000000 Z
+    message: remove build files
+    url: https://github.com/keyuan/docker-ccube/commit/50f3d3f92d69e121fa50743d6dac3ecca2669acd
+    author_login: ''
+    author_url: ''
+  - date: 2019-04-23 15:26:43.000000000 Z
+    message: ignore R build files
+    url: https://github.com/keyuan/docker-ccube/commit/478c606a36b6c64a301a69e37519ecb1889e813e
+    author_login: ''
+    author_url: ''
+- repo: keyuan/docker-pyclone
+  title: docker-pyclone
+  owner: keyuan
+  description: 
+  url: "/projects/docker-pyclone/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  commits:
+  - date: 2016-07-06 12:22:43.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/84760a2931960a67432b04c38758c33b3567de0d
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 12:10:31.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/41f15bfa82f89a19ba036e455cbaa6c56798a52a
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 11:59:33.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/f4a49cb50402f1603687bbd8454301107f9dfcb6
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 01:41:08.000000000 Z
+    message: pyclone for smchet
+    url: https://github.com/keyuan/docker-pyclone/commit/ca5a224d85963b981d0446be4bfbfe57aa3e0aa9
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 00:46:21.000000000 Z
+    message: pyclone for smchet
+    url: https://github.com/keyuan/docker-pyclone/commit/83effd86e9768c0e07d4a50c99cc5d597db07a43
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+- repo: keyuan/bitphyloR
+  title: bitphyloR
+  owner: keyuan
+  description: BitPhylogeny in R
+  url: "/projects/bitphyloR/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  commits:
+  - date: 2016-03-18 00:27:18.000000000 Z
+    message: Update README.md
+    url: https://github.com/keyuan/bitphyloR/commit/d9c5c00f85ad549eb053ce8fe83f928d0f2c4976
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2015-07-27 21:59:59.000000000 Z
+    message: minor tweaks
+    url: https://github.com/keyuan/bitphyloR/commit/8b62de1b47cb6e7b5e53d62b395dbb960b884b1b
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2015-07-27 16:31:09.000000000 Z
+    message: add comments
+    url: https://github.com/keyuan/bitphyloR/commit/5d34bf34d62748b91d026bda3f6446a150e7e141
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2015-07-27 16:29:20.000000000 Z
+    message: remove underdeveloped functions
+    url: https://github.com/keyuan/bitphyloR/commit/a4b6054917aa4c5be553e7b3ba42c18009798d3d
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2015-07-27 16:28:43.000000000 Z
+    message: remove underdeveloped functions
+    url: https://github.com/keyuan/bitphyloR/commit/4f26e0f4f78a89d8de2c116311840fe2876f5a7b
+    author_login: keyuan
+    author_url: https://github.com/keyuan
