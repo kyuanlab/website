@@ -45,3 +45,6 @@ projects:
   - keyuan/ccube
   - keyuan/docker-ccube
   - keyuan/docker-pyclone
+  - keyuan/bitphyloR
+  - AdalbertoCq/Learning-a-low-dimensional-manifold-of-realcancer-tissue
+  - AdalbertoCq/Pathology-GAN
