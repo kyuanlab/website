@@ -5,9 +5,6 @@ environment*
 _site/
 
 # Projects
-# projects/ccube/
-# !projects/*/index.md
-# !projects/index.html
 
 # Jekyll metadata
 .jekyll-metadata
