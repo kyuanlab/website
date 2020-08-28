@@ -14,11 +14,12 @@ config["projects"].each do |repo|
 	Dir.chdir($basedir + "/projects/" + name)			# drop into blotter dir	
 	`git clean -f`										# remove untracked files, but keep directories
 	`git reset --hard HEAD`								# bring back to head state
-	`git pull origin master`							# git pull
-	`shopt -s extglob`
-	`rm -rf !(*.md)`					
+	`git pull origin master`							# git pull				
 end
 
 Dir.chdir($basedir)
 `ruby _scripts/preprocess-markdown.rb`
 `ruby _scripts/generate-project-data.rb`
+
+`shopt -s extglob`
+`rm -rf !(*.md)`	
