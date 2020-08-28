@@ -21,5 +21,11 @@ Dir.chdir($basedir)
 `ruby _scripts/preprocess-markdown.rb`
 `ruby _scripts/generate-project-data.rb`
 
-`shopt -s extglob`
-`rm -rf !(*.md)`	
+config["projects"].each do |repo|
+	name = repo.split('/').drop(1).join('')		
+	Dir.chdir($basedir + "/projects")			
+	Dir.chdir($basedir + "/projects/" + name)			
+	`shopt -s extglob`
+	`rm -rf !(*.md)`	
+									
+end
