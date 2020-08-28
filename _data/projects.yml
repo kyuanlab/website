@@ -43,3 +43,73 @@
     url: https://github.com/keyuan/ccube/commit/f53e18a5ded4e630529db6331faef39a4d7e61c9
     author_login: keyuan
     author_url: https://github.com/keyuan
+- repo: keyuan/docker-ccube
+  title: docker-ccube
+  owner: keyuan
+  description: 
+  url: "/projects/docker-ccube/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  commits:
+  - date: 2019-05-24 15:09:26.000000000 Z
+    message: fix calling nonexist parser
+    url: https://github.com/keyuan/docker-ccube/commit/6af0556cb20b4394da02056f3c8218af5b0a4ed3
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-04-29 15:45:36.000000000 Z
+    message: Delete .DS_Store
+    url: https://github.com/keyuan/docker-ccube/commit/4a13cea3157c72912afb4bf684faa4f936279441
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2019-04-23 15:32:40.000000000 Z
+    message: ignore txt files
+    url: https://github.com/keyuan/docker-ccube/commit/5e5d122e662ac811e7ffde5c7261b121f034e099
+    author_login: ''
+    author_url: ''
+  - date: 2019-04-23 15:29:50.000000000 Z
+    message: remove build files
+    url: https://github.com/keyuan/docker-ccube/commit/50f3d3f92d69e121fa50743d6dac3ecca2669acd
+    author_login: ''
+    author_url: ''
+  - date: 2019-04-23 15:26:43.000000000 Z
+    message: ignore R build files
+    url: https://github.com/keyuan/docker-ccube/commit/478c606a36b6c64a301a69e37519ecb1889e813e
+    author_login: ''
+    author_url: ''
+- repo: keyuan/docker-pyclone
+  title: docker-pyclone
+  owner: keyuan
+  description: 
+  url: "/projects/docker-pyclone/"
+  contributors:
+  - login: keyuan
+    avatar: https://avatars2.githubusercontent.com/u/383639?v=4&s=50
+    url: https://github.com/keyuan
+  commits:
+  - date: 2016-07-06 12:22:43.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/84760a2931960a67432b04c38758c33b3567de0d
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 12:10:31.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/41f15bfa82f89a19ba036e455cbaa6c56798a52a
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 11:59:33.000000000 Z
+    message: reduce memory usage
+    url: https://github.com/keyuan/docker-pyclone/commit/f4a49cb50402f1603687bbd8454301107f9dfcb6
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 01:41:08.000000000 Z
+    message: pyclone for smchet
+    url: https://github.com/keyuan/docker-pyclone/commit/ca5a224d85963b981d0446be4bfbfe57aa3e0aa9
+    author_login: keyuan
+    author_url: https://github.com/keyuan
+  - date: 2016-07-06 00:46:21.000000000 Z
+    message: pyclone for smchet
+    url: https://github.com/keyuan/docker-pyclone/commit/83effd86e9768c0e07d4a50c99cc5d597db07a43
+    author_login: keyuan
+    author_url: https://github.com/keyuan

@@ -36,6 +36,10 @@ exclude:
   - "*.zip"
   - "Gemfile"
   - "Gemfile.lock"
+  - "LICENSE"
+  - "*.Rproj"
+  - "Dockerfile"
+  - "Dockerfile_backup"
 
 projects:
   - keyuan/ccube
