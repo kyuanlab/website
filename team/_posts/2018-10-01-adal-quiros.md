@@ -9,6 +9,7 @@ github: AdalbertoCq
 scholar: 
 image: /images/team/adal-quiros.jpeg
 website: https://adalbertocq.github.io/ 
+most-recent-degree: M.S. in Electrical Engineering IIT in Chicago
 ---
 
 I’m a second year PhD student advised by [Ke Yuan](https://www.gla.ac.uk/schools/computing/staff/keyuan/) and [Roderick Murray-Smith](http://www.dcs.gla.ac.uk/~rod/) at the Univeristy of Glasgow, Computing Science department.
