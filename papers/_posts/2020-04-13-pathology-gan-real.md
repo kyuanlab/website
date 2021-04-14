@@ -4,7 +4,7 @@ title: "Learning a low dimensional manifold of real cancer tissue with Pathology
 image: /images/papers/adal-pathgan-real.svg
 authors: Adalberto Claudio Quiros, Roderick Murray-Smith, Ke Yuan
 year: 2020
-ref: Quiros et al. 2020. arXiv.
+ref: Quiros et al. 2020. NeurIPS LMRL Workshop.
 journal: "NeurIPS (2020) Learning Meaningful Representation of Life Workshop"
 github: https://github.com/AdalbertoCq/Pathology-GAN
 arxiv: arXiv:2004.06517
