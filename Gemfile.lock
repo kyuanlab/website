@@ -122,9 +122,6 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-less (0.0.4)
-      jekyll (>= 0.10.0)
-      less (>= 2.0.5)
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -228,7 +225,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     ref (2.0.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rouge (3.19.0)
     ruby-enum (0.8.0)
       i18n
@@ -267,8 +264,6 @@ DEPENDENCIES
   execjs
   github-pages
   jekyll
-  jekyll-less
-  kramdown
   less
   netrc
   octokit
